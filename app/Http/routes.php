@@ -23,6 +23,6 @@ Route::group(['prefix'=>'admin','middleware' => 'web'],function(){
         //登陆操作，成功登陆返回加密后的密码存于cookies中
     Route::post('signup','Admin\UserController@LoginAction');
 });
-//Route::group(['prefix'=>'admin','middleware' => ['web','admin.login']],function(){
-//
-//});
+Route::group(['prefix'=>'admin','middleware' => ['web','admin.login']],function(){
+
+});
