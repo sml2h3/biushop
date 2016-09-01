@@ -166,7 +166,7 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="">欢迎页面</a>
+                                <a href="index">欢迎页面</a>
                             </li>
                             <li>
                                 <a href="">站点设置</a>
