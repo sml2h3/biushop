@@ -28,7 +28,7 @@ class UserController extends CommonController
                 $pass_decode = Crypt::decrypt($result->admin_password);
                 if ($pass_decode == Input::get('password')){
                     session(['user_name'=>Input::get('username'),'user_pass'=>$result->admin_password]);
-                    return view('admin.manage');
+                    return redirect('admin/index');
                 }else{
                     return view('admin.login')->with("msg","账号或者密码错误");
                 }

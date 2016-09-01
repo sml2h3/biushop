@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use App\Http\Model\Admin;
 use Illuminate\Support\Facades\Crypt;
-
+use Illuminate\Support\Facades\Redirect;
 class AdminUser
 {
     /**
@@ -20,14 +20,14 @@ class AdminUser
         if (session('user_name')&&session('user_pass')){
             $result = Admin::where('admin_name',session('user_name'))->first();
             if (!$result){
-                return view('admin.login')->with("msg","账号信息有误");
+                return redirect("admin/login")->with("msg","账号信息有误");
             }else{
-                if(Crypt::decrypt($result->admin_password) != session('user_pass')){
-                    return view('admin.login')->with("msg","密码错误");
+                if(Crypt::decrypt($result->admin_password) != Crypt::decrypt(session('user_pass'))){
+                    return redirect("admin/login")->with("msg","密码错误");
                 }
             }
         }else{
-            return view('admin.login')->with("msg","未输入账号信息");
+            return redirect("admin/login")->with("msg","未输入账号信息");
         }
         return $next($request);
     }

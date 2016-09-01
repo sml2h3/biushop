@@ -8,7 +8,7 @@
     <meta name="description" content="Xenon Boostrap Admin Panel" />
     <meta name="author" content="" />
 
-    <title>微购物后台管理系统-天津蚁尚科技有限公司</title>
+    <title>easyshop后台管理系统-天津蚁尚科技有限公司</title>
 
     <link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="{{asset('assets/css/fonts/linecons/css/linecons.css')}}">
