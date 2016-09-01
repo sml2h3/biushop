@@ -17,6 +17,6 @@ class IndexController extends CommonController
     }
     //访问页面 经过中间件admin.login，不符合的会直接回到登陆首页
     public function IndexView(){
-        return view('admin.index');
+        return view('admin.dash');
     }
 }
