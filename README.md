@@ -1,4 +1,4 @@
-# laravel-easyshop
+# laravel-biushop
 
 由于个人对于laravel的喜欢，又想开发一套商城系统（类天猫），受到shopnc的一点启发，想基于laravel5.2开发一套B2B2C商城系统。 希望同样喜欢laravel的大牛能够帮助我指明代码的不合理。 作者我属于刚刚入门laravel的级别，有很多的地方处理不当的时候还请各位大牛能够指正。 实话说，我对大并发的网站处理经验不是很足，但我会在这次处女作中不断的去学习！ 作者博客：www.fkgeek.com
 
