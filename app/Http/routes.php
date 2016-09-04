@@ -24,5 +24,11 @@ Route::group(['prefix'=>'admin','middleware' => 'web'],function(){
     Route::post('signup','Admin\UserController@LoginAction');
 });
 Route::group(['prefix'=>'admin','middleware' => 'admin.login'],function(){
+    //页面访问，无登陆状态验证
+        //访问欢迎页面
     Route::get('index','Admin\IndexController@IndexView');
+        //访问网站设置页面
+    Route::get('setting','Admin\IndexController@SetView');
+        //访问会员管理页面
+    Route::get('users','Admin\IndexController@UserView');
 });

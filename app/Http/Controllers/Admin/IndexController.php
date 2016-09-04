@@ -16,7 +16,15 @@ class IndexController extends CommonController
         $this->result = Admin::where('admin_name',session('user_name'))->first();
     }
     //访问页面 经过中间件admin.login，不符合的会直接回到登陆首页
+        //访问欢迎页
     public function IndexView(){
         return view('admin.dash');
+    }
+        //访问网站基础设置页
+    public function SetView(){
+        return view('admin.setting');
+    }
+    public function UserView(){
+        return view('admin.users');
     }
 }

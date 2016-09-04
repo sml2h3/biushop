@@ -20,8 +20,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/xenon-skins.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    <script src="{{asset('assets/js/jquery-1.11.1.min.js')}}"></script>
-
+    <link rel="stylesheet" href="{{asset('assets/css/lc_switch.css')}}">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,6 +32,9 @@
 <body class="page-body">
 @yield('content')
 <!-- Bottom Scripts -->
+<script src="{{asset('assets/js/jquery-1.11.1.min.js')}}"></script>
+<script src="{{asset('assets/js/jquery.js')}}"></script>
+<script src="{{asset('assets/js/lc_switch.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('assets/js/TweenMax.min.js')}}"></script>
 <script src="{{asset('assets/js/resizeable.js')}}"></script>
@@ -41,6 +43,7 @@
 <script src="{{asset('assets/js/xenon-toggles.js')}}"></script>
 <script>
     $(document).ready(function(){
+        $('input[type=checkbox]').lc_switch();
         var title = '{{$_SERVER['REQUEST_URI']}}';
         var title = title.substr(7);
         $('a[href='+title+']').addClass("active");

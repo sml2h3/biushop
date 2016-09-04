@@ -1,7 +1,6 @@
 @extends('admin.index')
     @section('content2')
         <div class="page-title">
-
             <div class="title-env">
                 <h1 class="title">欢迎来到biushop</h1>
                 <p class="description">在这里我们将指引您使用这套充满艺术气息的商城系统</p>
@@ -20,7 +19,6 @@
                 </ol>
 
             </div>
-
         </div>
         <div class="row">
             <div class="page-loading-overlay">
@@ -53,8 +51,8 @@
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>店铺</span>
+                                <strong class="num">店铺</strong>
+                                <span>提供新店审核，续签，管理的快速通道</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -72,8 +70,8 @@
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>商品</span>
+                                <strong class="num">商品</strong>
+                                <span>合理的面对用户举报，运筹帷幄</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -91,8 +89,8 @@
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>交易</span>
+                                <strong class="num">交易</strong>
+                                <span>时刻关心交易状态，保证用户体验</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -104,14 +102,14 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-aero" data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
+                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-blue" data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
                             <div class="xe-icon">
                                 <i class="fa-line-chart"></i>
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>运营</span>
+                                <strong class="num">运营</strong>
+                                <span>平台贵在运营，决胜之因</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -123,14 +121,14 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-lemonade" data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
+                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-danger data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
                             <div class="xe-icon">
                                 <i class="fa-file-text-o"></i>
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>CMS</span>
+                                <strong class="num">CMS</strong>
+                                <span>自媒体传播，自我推销</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -142,14 +140,14 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-12">
-                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-facebook" data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
+                        <div class="xe-widget xe-vertical-counter xe-vertical-counter-turquoise" data-count=".num" data-from="0" data-to="67.9" data-decimal="," data-suffix="%" data-duration="3">
                             <div class="xe-icon">
                                 <i class="fa-comments-o"></i>
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>圈子</span>
+                                <strong class="num">圈子</strong>
+                                <span>关心用户潮流动态，把握商机</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
@@ -167,8 +165,8 @@
                             </div>
 
                             <div class="xe-label">
-                                <strong class="num">11</strong>
-                                <span>天津蚁尚科技</span>
+                                <strong class="num">天津蚁尚科技</strong>
+                                <span>欢迎您的到来</span>
                             </div>
                             <div class="btndiv">
                                 <div class="btn-group btnbox">
